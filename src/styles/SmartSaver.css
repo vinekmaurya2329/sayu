@@ -9,7 +9,9 @@
 }
 .smart-saver-upper-container h3{
     color: #00275B;
-    font-size: 35px;
+    font-size: 3vw;
+    text-align: justify;
+
 }
 .smart-saver-upper-container button{
     border-radius: 30px;
@@ -18,6 +20,7 @@
 }
 .smart-saver-upper-container p {
     padding: 0 30px;
+    text-align: justify;
 }
 .smart-saver-upper-container .blank{
     height: 120px;
@@ -34,9 +37,13 @@
 }
 .smart-saver-middle-container .middle-right{
     width: 40vw;
+    background: linear-gradient(#a3fae7,#aeb5ff,#FFFFFF);
+    border-radius: 30px;
+    height: 400px;
 }
 .smart-saver-middle-container .middle-right img{
     width: 40vw;
+    height: 80%;
 }
 .smart-saver-middle-container h5{
     color: #1A527E;
@@ -52,6 +59,7 @@
     }
     .smart-saver-middle-container .middle-right{
         order: 1;
+        width: 80vw;
     }
      .smart-saver-middle-container {
         /* justify-content: center; */
@@ -62,7 +70,6 @@
         width: 90vw;
      }
      .smart-saver-middle-container .middle-right img {
-        
         width: 50vw;
      }
 }

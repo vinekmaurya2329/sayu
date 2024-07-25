@@ -36,5 +36,11 @@
     .yourSayv-middle{
         position: static;
         align-items: center;
+        justify-content: center;
+    }
+    .yourSayv-middle .card2-container{
+       
+        /* width:90vw !important */
+      
     }
 }

@@ -35,7 +35,11 @@
     border-radius: 20px;
     padding: 0px 20px;
     height: 132px;
-    /* line-height: 15px; */
+ 
+    
+}
+.note h6{
+    color: #1A527E;
 }
 .note span{
     color: #004AAD;
