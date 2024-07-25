@@ -1,0 +1,7 @@
+.card-container{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row !important;
+    align-items: center;
+    /* background-color: red; */
+}

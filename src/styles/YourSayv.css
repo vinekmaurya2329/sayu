@@ -1,0 +1,40 @@
+.yourSayv-container{
+ background-color: #FFFFFF;
+}
+.yourSayv-upper button{
+    border-radius: 20px;
+    border: 1px solid #004AAD;
+}
+.yourSayv-upper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.yourSayv-middle{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 80vw;
+    position: relative;
+    left: 80px;
+    row-gap: 20px;
+}
+.yourSayv-lower h4{
+    color: #1A527E;
+    font-size: 17px;
+}
+.yourSayv-lower p{
+    font-size: 14px;
+    color: #374957;
+}
+@media (max-width:1000px) {
+    .yourSayv-middle{
+        position: static;
+        align-items: center;
+    }
+}

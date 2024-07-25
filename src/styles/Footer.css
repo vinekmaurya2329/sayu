@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: #080808;
+    color: #FFFFFF;
+}
+.footer-container .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.footer-container .container li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+}

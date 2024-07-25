@@ -1,0 +1,12 @@
+.scan-btn{
+ background-color: #004AAD;
+ border-radius: 25px;
+ /* height: 48px; */
+}
+.nav-container{
+    background-color: #080808 !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+Nav {
+    color: #fff !important;
+}
