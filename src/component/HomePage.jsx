@@ -7,8 +7,10 @@ import CreditScore from "../section/CreditScore";
 import Review from "./Review";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
+import NavBar from "./Navbar";
 function HomePage() {
   return (
+   <><NavBar/>
     <div className="home-container">
       <div>
         <div className="upper">
@@ -68,7 +70,7 @@ function HomePage() {
       <Review/>
       <FAQ/>
       <Footer/>
-    </div>
+    </div></>
   );
 }
 
