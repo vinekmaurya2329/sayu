@@ -20,11 +20,11 @@ function SmartSaver() {
           <p>Create personalised dashboards and reports to focus on the financial details that matter most to you.</p>
             </div>
             <div className="middle-right">
-                  <img src="../..//Sayv-image-1.png" alt="" />
+                  <img src="../..//smartSaver-left.png" alt="" />
             </div>
         </div>
         <div className="smart-saver-lower-container">
-                 <img src="../..//Sayv-image-2.png" alt="" />
+                 <img src="../..//smartSaver-lower.png" alt="" />
         </div>
        
   <div className="smart-saver-bottom">

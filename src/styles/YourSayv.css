@@ -40,7 +40,17 @@
     }
     .yourSayv-middle .card2-container{
        
-        /* width:90vw !important */
+    
       
     }
+}
+.yourSayv-middle .card2-title , .card2-description{
+     color:#FFFFFF !important;
+}
+.yourSayv-middle .card2-logo{
+    width:40px;
+    padding-bottom: 20px;
+}
+.yourSayv-middle .card2-container{
+ 
 }

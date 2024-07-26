@@ -37,7 +37,7 @@
 }
 .smart-saver-middle-container .middle-right{
     width: 40vw;
-    background: linear-gradient(#a3fae7,#aeb5ff,#FFFFFF);
+    /* background: linear-gradient(#a3fae7,#aeb5ff,#FFFFFF); */
     border-radius: 30px;
     height: 400px;
 }
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background: linear-gradient(#80ffe3,#818cff);
+    /* background: linear-gradient(#80ffe3,#818cff); */
     border-radius: 30px;
     padding: 20px 0px !important;
 }

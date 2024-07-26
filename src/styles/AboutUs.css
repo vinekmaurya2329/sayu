@@ -1,0 +1,26 @@
+.aboutUs-container .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.aboutUs-container{
+    background: rgba(8, 8, 8, 1);
+    /* background-color: red; */
+ color: #ffffff;
+}
+.aboutUs-container h4{
+    font-size: 35px;
+}
+.aboutUs-container p {
+    text-align: center;
+}
+.aboutUs-container button {
+    border-radius: 30px;
+    padding: 1px 10px;
+    background: rgba(8, 8, 8, 1);
+    color:#CECECE;
+    border: 1px solid #004AAD;
+
+}

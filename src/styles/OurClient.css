@@ -1,0 +1,30 @@
+.ourClient-container{
+    background-color: #F3F6FA;
+}
+.ourClient-container h4{
+    color: #00275B;
+}
+.ourClient-container .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+} 
+.ourClient-container .ourClient-upper{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+} 
+.ourClient-container p{
+    color: #374957;
+    text-align: center;
+}
+.ourClient-container button{
+    background-color: #F3F6FA;
+    color: #374957;
+    border-radius: 20px;
+    border: 1px solid #004AAD;
+
+}

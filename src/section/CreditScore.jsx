@@ -21,7 +21,7 @@ Lenders check your credit score to assess the risk of lending you money. A highe
 If you're planning to apply for a credit card, mortgage, car loan, or any other credit product, checking your credit score first can help you understand your creditworthiness and the likelihood of your application being approved.</p>
     </div>
     <div className="credit-score-right">
- {/* <img src="https://www.myfooddata.com/printables/high-calorie-foods-to-avoid-printable.png" alt="img" /> */}
+ <img src="../..//creditScore-right.png" alt="img" />
     </div>
   </div>
     <div style={{height:'100px'}}></div>

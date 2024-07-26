@@ -57,3 +57,6 @@
     align-items: center;
     margin-top: 50px;
 }
+.review-lower .card2-description{
+    color: #000 !important;
+}

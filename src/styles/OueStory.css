@@ -1,0 +1,34 @@
+.ourStory-container {
+    background-color: #FFFFFF;
+}
+.ourStory-container h4{ 
+    color: #00275B;
+}
+
+.ourStory-container .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 20px;
+    /* align-items: center; */
+}
+.ourStory-container p{
+    color: #374957;
+    text-align: justify;
+}
+.ourStory-left .ourStory-right {
+    width: 45vw ;
+}
+@media (max-width:600px) {
+    .ourStory-container .container{
+        flex-direction: column;
+    }
+}
+.ourStory-right button{
+     background-color: #FFFFFF;
+     border-radius: 30px ;
+     padding: 1px 10px;
+     color: #374957;
+     border: 1px solid #004AAD;
+
+}

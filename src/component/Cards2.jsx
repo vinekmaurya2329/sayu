@@ -3,24 +3,24 @@ import { CardImg, CardImgOverlay } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 function Cards2({logo,title,discription,bgimage}) {
   return (
-    <div>
- <div className=''>
- <Card style={{ width: '18rem',height:'270px' ,borderRadius:'30px'}} className='card2-container'>
-      <Card.Body>
-        {/* <CardImg src={logo} style={{width:'30px'}}/> */}
-        <img src={logo} alt="" />
-        <Card.Title> {title}</Card.Title>
+  
+ 
+ <Card className='card2-container rounded-4 h-100 ' style={{backgroundImage: `url(${bgimage})`,backgroundSize:'cover',backgroundPosition:'center', }}>
+      <Card.Body className='h-100 card2-body ' >
+        {/* <CardImg src={bgimage} style={{width:'300px'}}/> */}
+        <img src={logo} alt="" className='card2-logo' />
+        <Card.Title className='card2-title'> {title}</Card.Title>
         
-        <Card.Text className=''>
+        <Card.Text className='card2-description'>
           {discription}
         </Card.Text>
         
       </Card.Body>
     </Card>
 
- </div>
 
-    </div>
+
+   
   )
 }
 
