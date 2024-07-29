@@ -17,7 +17,7 @@ function NavBar() {
           <Nav className="me-auto text-white" id='nav-links'>
             <Nav.Link href="/" className='' style={{color:'#004AAD'}}>Home</Nav.Link>
             <Nav.Link href="/about"  className='text-white'>About us</Nav.Link>
-            <Nav.Link href='#ourServices'  className='text-white'>Our Services</Nav.Link>
+            <Nav.Link href='/ourService'  className='text-white'>Our Services</Nav.Link>
             <Nav.Link href='#ourServices'  className='text-white'>Blog & Testimonials</Nav.Link>
             <Nav.Link href='#ourServices'  className='text-white'>Contact us</Nav.Link>
          

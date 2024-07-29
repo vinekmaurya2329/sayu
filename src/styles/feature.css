@@ -1,0 +1,41 @@
+.feature-1-container {
+    background-color: #FFFFFF;
+}
+.feature-1-container .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.feature-1-container .left-1 img{
+    width: 40vw;
+}
+.feature-1-container .right-1{
+    width: 40vw;
+}
+.feature-1-container .right-1 button{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #004AAD;
+    color: #374957;
+    padding: 2px 10px;
+
+}
+.feature-1-container .right-1 h4{
+    color: #00275B;
+}
+.feature-1-container .right-1 h6{
+    color: #1A527E;
+}
+.feature-1-container .right-1 p{
+    color: #374957
+    ;
+}
+.feature-1-container .right-1 .logo{
+    width: 40px;
+    float: left;
+    padding-right: 10px;
+}

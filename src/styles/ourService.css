@@ -1,0 +1,49 @@
+.ourService-container .ourService-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.ourService-container{
+    background-color: #080808;
+}
+.ourService-container .ourService-upper h4{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+}
+.ourService-container .ourService-upper p{
+    color: #FFFFFF;
+    text-align: center;
+}
+.ourService-container button{
+    background-color: #080808;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    border: 1px solid #004AAD;
+
+}
+.our-service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.our-service-card .card2-container{
+    width: 30vw;
+}
+.our-service-card .card2-descripton{
+    color:'#FFFFFF';
+    text-align: justify;
+}
+.our-service-card .card2-logo{
+    width: 40px;
+}
+.our-service-card .card2-title{
+    color: #FFFFFF;
+}

@@ -5,3 +5,8 @@ body {
     overflow-x: hidden;
    
   }
+  *::selection{
+    background-color: #1A527E;
+    color:#ffffff;
+   
+  }
