@@ -78,13 +78,14 @@ function OurServices() {
     }
     
   return (
-    <><NavBar/>
+    <>
     <div className='ourService-container'>
       
-        <div style={{height:'100px'}}></div>
   <div className="container">
     <div className="ourService-upper">
-        <button>Our Servicesd</button>
+    <div style={{height:'100px'}}></div>
+
+        <button>Our Services</button>
         <h4>Explore SAYV's Key Features</h4>
         <p>
         SAYV is a unique software application company that provides a fully integrated Personal Financial Management & Budgeting tool. Our talented and collaborative team of professionals take a big picture approach to care for our client users and their cost-of-living, saving & lifestyle needs. We make a positive difference to the world every day, by changing people’s lives for the better. SAYV was established on three key pillars: Our Clients, Our People and Our Community; these form the foundation of our business and guide us in everything we do.</p>

@@ -6,7 +6,17 @@
     row-gap: 20px;
 }
 .ourService-container{
-    background-color: #080808;
+    /* background-color: #080808; */
+    background-image: url('../../public/Background.png') ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.ourService-container .ourService-upper{
+    /* background-image: url('../../public/Background.png') ;
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat; */
 }
 .ourService-container .ourService-upper h4{
     color: #FFFFFF;

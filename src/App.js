@@ -7,16 +7,21 @@ import HomePage from './component/HomePage';
 import AboutUs from './component/AboutUs';
 import OurClient from './component/OurClient';
 import OurServices from './component/OurServices';
+import BlogTesti from './section/BlogTesti';
+import BlogDetails from './section/BlogDetails';
+import NavBar from './component/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
-    
+      <NavBar/>
     <Routes>
 
       <Route path='/' element={<HomePage/>}/>
       <Route path='/about' element={<AboutUs/>}/>
       <Route path='/ourService' element={<OurServices/>}/>
+      <Route path='/blog' element={<BlogTesti/>}/>
+      <Route path='/blogDetails' element={<BlogDetails/>}/>
       {/* <Route path='/ourClient' element={<OurClient/>}/> */}
     </Routes>
     </BrowserRouter>

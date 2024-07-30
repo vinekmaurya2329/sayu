@@ -6,8 +6,13 @@
     row-gap: 20px;
 }
 .aboutUs-container{
-    background: rgba(8, 8, 8, 1);
+    /* background: rgba(8, 8, 8, 1); */
     /* background-color: red; */
+    background-image: url('../../public/Background.png');
+    background-size: 100% 100%;
+    /* background-position:center; */
+    /* background-repeat: no-repeat; */
+
  color: #ffffff;
 }
 .aboutUs-container h4{

@@ -10,3 +10,6 @@
 Nav {
     color: #fff !important;
 }
+.nav-links:active{
+    color: #004AAD !important;
+}

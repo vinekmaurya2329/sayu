@@ -5,7 +5,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../styles/Navbar.css'
+import { useNavigate } from 'react-router-dom';
+
 function NavBar() {
+  const navigate = useNavigate()
   return (
     <div className=''>
 
@@ -15,11 +18,11 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-white' />
         <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto text-white" id='nav-links'>
-            <Nav.Link href="/" className='' style={{color:'#004AAD'}}>Home</Nav.Link>
-            <Nav.Link href="/about"  className='text-white'>About us</Nav.Link>
-            <Nav.Link href='/ourService'  className='text-white'>Our Services</Nav.Link>
-            <Nav.Link href='#ourServices'  className='text-white'>Blog & Testimonials</Nav.Link>
-            <Nav.Link href='#ourServices'  className='text-white'>Contact us</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/')}  className='nav-links' style={{color:'#004AAD'}}>Home</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/about')}  className='text-white nav-links'>About us</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/ourService')}  className='text-white nav-links'>Our Services</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/blog')}  className='text-white nav-links'>Blog & Testimonials</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/home')}  className='text-white nav-links'>Contact us</Nav.Link>
          
          
           </Nav>

@@ -10,7 +10,7 @@ import Footer from './Footer'
 import NavBar from './Navbar'
 function AboutUs() {
   return (
-    <><NavBar/>
+    <>
     <div className='aboutUs-container'>
          <div className="container">
             <div style={{height:'60px'}}></div>
@@ -21,13 +21,14 @@ function AboutUs() {
             <div style={{height:'70px'}}></div>
         
          </div>
-         <OurStory/>
+        
+       
+    </div>
+    <OurStory/>
          <OurClient/>
          <OurTeam/>
          <OurTeam_2/>
          <OurTeam_3/>
-       
-    </div>
      <Footer/>
     </>
   )

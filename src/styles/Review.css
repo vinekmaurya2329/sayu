@@ -1,5 +1,9 @@
 .review-container{
     background-color: #080808;
+    background-image: url('../../public/Background.png') ;
+background-size: cover ;
+background-position: center ;
+background-repeat: no-repeat;
     /* background-color: red; */
     color: #ffff;
 }
