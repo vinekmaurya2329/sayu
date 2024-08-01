@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useRef } from "react";
+import Slider from "react-slick";
 import '../styles/ourTeam.css'
-import Cards from './Card'
+import Cards from './Card';
+import { MdNavigateNext } from "react-icons/md";
+import { GrFormPrevious } from "react-icons/gr";
 function OurTeam() {
 
     const data = [
@@ -28,6 +31,60 @@ function OurTeam() {
 
         },
     ]
+    let sliderRef = useRef(null);
+    const next = () => {
+      sliderRef.slickNext();
+    };
+    const previous = () => {
+      sliderRef.slickPrev();
+    };
+    const settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      // centerMode:true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      focusOnSelect: true,
+      swipeToSlide: true,
+      arrows:false,
+      responsive: [
+        {
+          breakpoint: 1240,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 933,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 630,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+
   return (
     <div className='ourTeam-container'>
         <div style={{height:'100px'}}></div>
@@ -41,11 +98,34 @@ to creating opportunities for our people, through providing an outstanding work 
     </div>
 
     <div className="ourTeam-lower">
-               {
-          data.map(({name,title,image})=>{
-                 return  <Cards title={name} description={title} img={image}/>
+
+    <div className="slider-container" >
+      <Slider
+        ref={slider => {
+          sliderRef = slider;
+        }}
+        {...settings}
+      >
+
+{
+          data.map(({name,title,image},i)=>{
+                 return  <div key={i}> <Cards title={name} description={title} img={image}/> </div>
           })
                }
+       
+         
+       
+      </Slider>
+      <div style={{ textAlign: "center" }} className="btn-conatiner">
+        <button className="button" onClick={previous}>
+        <GrFormPrevious />
+        </button>
+        <button className="button" onClick={next}>
+        <MdNavigateNext />
+        </button>
+      </div>
+    </div>
+             
     </div>
  </div>
    <div style={{height:'150px'}}></div>

@@ -27,7 +27,7 @@ background-repeat: no-repeat;
     padding: 1px 10px;
     color: #F9FCFF;
 }
-.review-lower{
+/* .review-lower{
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -35,21 +35,28 @@ background-repeat: no-repeat;
     flex-wrap: wrap;
     row-gap: 20px;
 
-}
+} */
 .review-lower img{
-    /* background-color: red; */
+    
     position: relative;
-    left: 130px;
+    left: 42%;
     top:-35px;
     width: 50px;
     border: 2px solid black;
     border-radius: 50%;
+    
+    
+}
+.review-lower{
+    /* overflow: visible !important; */
+    
 }
 .review-lower .card2-container{
-  width: 350px !important;
-  height: 200px !important;
  
- /* background-color: red; */
+  
+  overflow: visible ;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .more-review-btn{
     border-radius: 30px;

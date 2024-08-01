@@ -10,28 +10,50 @@ import Slider from "react-slick";
 function Review() {
 const data =[
     {
-        name:'dummy',
+        name:'joy',
         description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
         image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
     },
     {
-        name:'dummy',
+        name:'tony',
         description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
         image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
     },
     {
-        name:'dummy',
+        name:'jay',
         description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
         image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
-    }
+    }, {
+        name:'yash',
+        description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
+        image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
+    }, {
+        name:'nobita',
+        description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
+        image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
+    }, {
+        name:'Tom',
+        description:'Have been relying on SAYV for years sometime,initially to find help with my mortgage payments andthis helped me talk confidently either to new lenders orto negotiate better rates with existing lenders.',
+        image:'https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png'
+    },
 ]
 let settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    className: "center",
+    dots: false,
+    infinite: true,
+    speed: 200,
+    centerMode: true,
+    slidesToShow:3,
+    centerPadding: "0px",
+    slidesToScroll: 1,
+    arrows:false,
+   
+    // adaptiveHeight: true,
+    
+    // variableWidth: true,
     initialSlide: 0,
+    focusOnSelect: true,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,7 +65,7 @@ let settings = {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 770,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -76,39 +98,20 @@ let settings = {
     </div>
     <div className="review-lower">
    
-    {/* <div className="slider-container">
+    <div className="slider-container " >
       <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-        <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
-        </div>
+       
+          {data.map(({name,description,image})=>{
+     return  <div className='' > <Cards2 title={name}  discription={description} logo={image} /></div>
+   })}
+        
       </Slider>
-    </div> */}
+    </div>
    
 
-   {data.map(({name,description,image})=>{
+   {/* {data.map(({name,description,image})=>{
      return <Cards2 title={name}  discription={description} logo={image} />
-   })}
+   })} */}
     </div>
     <div className="review-btn-container">
     <button className='more-review-btn'>See more review</button>
