@@ -57,3 +57,52 @@
 .our-service-card .card2-title{
     color: #FFFFFF;
 }
+@media (max-width:770px) {
+     .features .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+        flex-wrap: nowrap;
+     }
+     .features .container .left-1{
+        width: 90vw;
+     }
+     .features .container .right-1{
+        width: 90vw;
+        text-align: start;
+     }
+     .features .container .left-1{
+        /* background-color: red; */
+        order: 1 !important;
+     }
+     .features .container .left-1 img{
+        width: 100% !important;
+        /* background-color: darkgreen; */
+     }
+     .feature-footer .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+        flex-wrap: nowrap;
+     }
+     .feature-footer .container .left-1 {
+        width: 90vw;
+     }
+     .feature-footer .container .right-1{
+        width: 90vw;
+        text-align: justify;
+     }
+     .feature-footer .container .left-1 img{
+        width: 100%;
+     }
+     .feature-footer .card2-container{
+        background-color: red !important;
+        min-width: 60vw;
+       max-width: 90vw;
+       height: 22vh !important;
+     }
+}

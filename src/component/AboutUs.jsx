@@ -29,7 +29,7 @@ function AboutUs() {
          <OurTeam/>
          <OurTeam_2/>
          <OurTeam_3/>
-     <Footer/>
+     
     </>
   )
 }

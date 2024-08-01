@@ -10,6 +10,7 @@ import OurServices from './component/OurServices';
 import BlogTesti from './section/BlogTesti';
 import BlogDetails from './section/BlogDetails';
 import NavBar from './component/Navbar';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -20,10 +21,11 @@ function App() {
       <Route path='/' element={<HomePage/>}/>
       <Route path='/about' element={<AboutUs/>}/>
       <Route path='/ourService' element={<OurServices/>}/>
-      <Route path='/blog' element={<BlogTesti/>}/>
-      <Route path='/blogDetails' element={<BlogDetails/>}/>
+      {/* <Route path='/blog' element={<BlogTesti/>}/> */}
+      {/* <Route path='/blogDetails' element={<BlogDetails/>}/> */}
       {/* <Route path='/ourClient' element={<OurClient/>}/> */}
     </Routes>
+    <Footer/>
     </BrowserRouter>
     // <div className="App">
     //   <Navbar/>

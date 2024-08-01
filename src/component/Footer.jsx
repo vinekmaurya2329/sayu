@@ -1,11 +1,13 @@
 import React from 'react'
 import '../styles/Footer.css'
+import { Image } from 'react-bootstrap'
 function Footer() {
   return (
     <div className='footer-container'>
   <div style={{height:'50px'}}></div>
         <div className="container">
   <div className="footer-1">
+  <Image src='../..//nav-logo.png' fluid width={'30px'} style={{float:'left'}}/>
 <h4>$ayv</h4>
  <p>Master the art of managing your money <br/> while on the move.</p>
   </div>

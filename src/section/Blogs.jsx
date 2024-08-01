@@ -4,10 +4,10 @@ import BlogCard from '../component/BlogCard'
 import { Col, Row } from 'react-bootstrap'
 import Review from '../component/Review'
 import Footer from '../component/Footer'
-import { Link } from "react-router-dom";
+import { Link ,useNavigate } from "react-router-dom";
 
 function Blogs() {
-   
+    const navigate = useNavigate()
     const data = [
         {
             title:'UX review presentations',
@@ -21,6 +21,7 @@ function Blogs() {
         }
     ]
   return (
+    
     <div className='blogs-container'>
         <div style={{height:'100px'}}></div>
 
@@ -54,11 +55,12 @@ function Blogs() {
                 ))}
                
             </Row>
-         <button className=' rounded-5 border-1 text-white mt-4' style={{backgroundColor:'#004AAD',padding:'4px 10px',textAlign:'center', position:'relative',left:'45%'}}> See all blogs </button>
+           
+         <button className=' rounded-5 border-1 text-white mt-4' style={{backgroundColor:'#004AAD',padding:'4px 10px',textAlign:'center', position:'relative',left:'45%'}} onClick={()=>navigate('/blogDetails')}> See all blogs </button>
      </div>
  </div>
  <Review/>
- <Footer/>
+ 
     </div>
   )
 }

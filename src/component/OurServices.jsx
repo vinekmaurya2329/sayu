@@ -93,13 +93,16 @@ function OurServices() {
     
   </div>
     </div>
-{
+  <div className="features">
+
+  {
     data.map(({title,description,heading,image,buttonTxt,logo,L_order,R_order})=>(
     <Feature title={title} description={description} image={image} logo={logo} heading={heading} buttonTxt={buttonTxt} L_order={L_order} R_order={R_order}/>
 
     ))
 }    
- <div className='bg-white '>
+  </div>
+ <div className='bg-white  feature-footer'>
  <div className='our-service-card container' style={{width:'',display:'flex', justifyContent:'center',alignItems:'center'}}>
    
 
@@ -115,10 +118,11 @@ function OurServices() {
   
     </div>
     <div style={{height:'100px'}}></div>
+    <Feature title={feature5.title} description={feature5.description} image={feature5.image} logo={feature5.logo} heading={feature5.heading} buttonTxt={feature5.buttonTxt} L_order={feature5.L_order} R_order={feature5.R_order}/>
+
  </div>
- <Feature title={feature5.title} description={feature5.description} image={feature5.image} logo={feature5.logo} heading={feature5.heading} buttonTxt={feature5.buttonTxt} L_order={feature5.L_order} R_order={feature5.R_order}/>
     
-  <Footer/>
+ 
 
     </>
   )

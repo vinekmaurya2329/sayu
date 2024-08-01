@@ -12,6 +12,7 @@ function HomePage() {
   return (
    <>
     <div className="home-container">
+    
       <div>
         <div className="upper">
           <div>
@@ -69,7 +70,7 @@ function HomePage() {
       <CreditScore/>
       <Review/>
       <FAQ/>
-      <Footer/>
+     
     </div></>
   );
 }

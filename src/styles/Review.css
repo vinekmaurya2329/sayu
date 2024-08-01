@@ -15,6 +15,11 @@ background-repeat: no-repeat;
     text-align: center;
     row-gap: 10px;
 }
+/* .review-upper p{
+    font-size: 10px;
+    text-align: justify;
+    line-height: 5px;
+} */
 .review-upper button{
     border-radius: 25px;
     border: 1px solid #004AAD;
@@ -63,4 +68,6 @@ background-repeat: no-repeat;
 }
 .review-lower .card2-description{
     color: #000 !important;
+    font-size: 13px;
+    text-align: justify;
 }
