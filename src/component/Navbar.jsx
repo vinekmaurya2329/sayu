@@ -14,8 +14,8 @@ function NavBar() {
 
 <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-container ">
       <Container>
-        <Image src='../..//nav-logo.png' fluid width={'30px'}/>
-        <Navbar.Brand href="#home" className='text-white'> $ayv</Navbar.Brand>
+      
+        <Navbar.Brand href="/" className='text-white'>  <Image src='../..//nav-logo.png' fluid width={'30px'}/> $ayv</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-white' />
         <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto text-white" id='nav-links'>

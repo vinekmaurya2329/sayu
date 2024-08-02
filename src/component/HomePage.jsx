@@ -37,8 +37,8 @@ function HomePage() {
           <div className="storeLink-container">
             <div className="play-store">
               <img
-                src="https://www.pngkey.com/png/full/203-2031422_google-play-store-icon-google-play-gift-card.png"
-                alt=""
+                src="https://static.wixstatic.com/media/41d000_d91d87a5816435680a72bb329df2ddae.png/v1/fill/w_560,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/41d000_d91d87a5816435680a72bb329df2ddae.png"
+                alt="ply"
               />
             </div>
             <div className="app-store">
@@ -64,14 +64,16 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <About />
+      
+     
+    </div>
+    <About />
       <SmartSaver/>
       <YourSayv/>
       <CreditScore/>
       <Review/>
       <FAQ/>
-     
-    </div></>
+    </>
   );
 }
 

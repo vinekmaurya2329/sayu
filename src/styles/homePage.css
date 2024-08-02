@@ -28,7 +28,7 @@
 .home-container{
     /* background-color: #080808; */
     background-image: url('../../public/Background.png');
- background-size:contain;
+ background-size:100% 100%;
  background-repeat: no-repeat;
  /* background-position:; */
     margin-top: 50px;

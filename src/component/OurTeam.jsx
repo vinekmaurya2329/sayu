@@ -41,7 +41,7 @@ function OurTeam() {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      speed: 900,
       // centerMode:true,
       slidesToShow: 4,
       slidesToScroll: 1,
