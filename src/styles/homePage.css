@@ -13,7 +13,8 @@
     /* border-radius: 20px; */
     padding: 1px 9px;
     /* border: 1px solid linear-gradient(#24CCA7,#004AAD); */
-    border-color:  linear-gradient(#24CCA7,#004AAD);
+    border: 1px solid #004AAD;
+
     
 }
 .upper h3{
