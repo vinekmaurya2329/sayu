@@ -1,0 +1,116 @@
+.contactUs-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #ffffff;
+}
+.contactUs-upper p{
+    text-align: center;
+}
+.contactUs-container{
+    background-image: url('../../public/Background.png') ;
+  /* background-position: center; */
+  background-size: 100% 100%;
+}
+.contactUs-upper button{
+    background-color: #FFFFFF;
+    border: 1px solid #004AAD;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+.contactUs-lower{
+    background-color: #FFFFFF;
+}
+.contactUs-lower .container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.contactUs-lower .container-1 h4{
+    color: #FFFFFF;
+}
+.contactUs-lower .container-1 h4{
+    color: #00275B;
+}
+.contactUs-lower .container-1 button{
+    background-color: #FFFFFF;
+    border: 1px solid #004AAD;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #374957
+    
+}
+.contactUs-left{
+    background-color: #F3F6FA;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 15px 0;
+}
+
+@media (max-width:500px) {
+    .contactUs-left{
+        width: 90vw;
+    }
+    .contactUs-right{
+        width: 90vw !important;
+    }
+    .contactUs-lower .container{
+        flex-direction: column !important;
+        row-gap: 20px;
+    }
+}
+.contactUs-left p{
+    text-align: center;
+}
+.contactUs-right{
+    background-color: #F3F6FA;
+    width: 50vw;
+    /* height: 65vh; */
+    border-radius: 20px;
+
+}
+.contactUs-right strong{
+    color: #00275B;
+}
+.contactUs-left button{
+    background-color: #004AAD;
+    color: #FFFFFF;
+    padding: 5px 17px ;
+    border-radius: 20px;
+    border: none;
+}
+.contactUs-left img{
+    width: 40px;
+    border-radius: 50%;
+}
+.contactUs-lower .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 30px;
+   
+}
+#sendMess{
+    background-color: #004AAD;
+    border-radius: 20px;
+    padding: 7px 15px;
+    position: relative;
+    left: 40%;
+}
+.contactUs-lower {
+   background: linear-gradient(to right,#FFFFFF,#ccfcf1);
+   /* background: radial-gradient(circle,#b7bdff,#FFFFFF,#b0ffee); */
+}

@@ -12,6 +12,7 @@ import BlogDetails from './section/BlogDetails';
 import NavBar from './component/Navbar';
 import Footer from './component/Footer';
 import PageNotFound from './component/PagenotFound';
+import ContactUs from './component/ContactUs';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path='/ourService' element={<OurServices/>}/>
       <Route path='/blog' element={<BlogTesti/>}/>
       <Route path='/blogDetails' element={<BlogDetails/>}/>
+      <Route path='contactUs' element={<ContactUs/>}/>
       <Route path='*' element={<PageNotFound/>}/>
       {/* <Route path='/ourClient' element={<OurClient/>}/> */}
     </Routes>

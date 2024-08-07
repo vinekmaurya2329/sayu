@@ -58,6 +58,7 @@ function Blogs() {
            
          <button className=' rounded-5 border-1 text-white mt-4' style={{backgroundColor:'#004AAD',padding:'4px 10px',textAlign:'center', position:'relative',left:'45%'}} onClick={()=>navigate('/blogDetails')}> See all blogs </button>
      </div>
+     <div style={{height:'70px'}}></div>
  </div>
  <Review/>
  

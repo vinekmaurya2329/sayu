@@ -6,9 +6,18 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    
 }
 .footer-container .container li a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 13px;
+}
+@media (max-width:500px) {
+    .footer-container .container {
+        justify-content: center;
+       
+        flex-direction: column;
+    }
+    
 }

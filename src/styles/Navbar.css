@@ -13,3 +13,6 @@ Nav {
 .nav-links:active{
     color: #004AAD !important;
 }
+#Sayv-logo{
+    cursor: pointer;
+}

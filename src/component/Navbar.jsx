@@ -15,7 +15,7 @@ function NavBar() {
 <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-container ">
       <Container>
       
-        <Navbar.Brand href="/" className='text-white'>  <Image src='../..//nav-logo.png' fluid width={'30px'}/> $ayv</Navbar.Brand>
+        <Navbar.Brand onClick={()=>navigate('/')} className='text-white'id='Sayv-logo' >  <Image src='../..//nav-logo.png' fluid width={'30px'}/> $ayv</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-white' />
         <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto text-white" id='nav-links'>
@@ -23,7 +23,7 @@ function NavBar() {
             <Nav.Link onClick={()=>navigate('/about')}  className='text-white nav-links'>About us</Nav.Link>
             <Nav.Link onClick={()=>navigate('/ourService')}  className='text-white nav-links'>Our Services</Nav.Link>
             <Nav.Link onClick={()=>navigate('/blog')}  className='text-white nav-links'>Blog & Testimonials</Nav.Link>
-            <Nav.Link onClick={()=>navigate('/home')}  className='text-white nav-links'>Contact us</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/contactUs')}  className='text-white nav-links'>Contact us</Nav.Link>
          
          
           </Nav>
