@@ -11,16 +11,25 @@
     color: #00275B;
     font-size: 3vw;
     text-align: justify;
-
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 40.48px;
 }
 .smart-saver-upper-container button{
     border-radius: 30px;
-    padding: 1px 10px;
+    padding: 4px 10px;
+    background-color: transparent;
     border: 1px solid #004AAD;
+    margin-bottom: 15px;
 }
 .smart-saver-upper-container p {
     padding: 0 30px;
-    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.56px;
+    text-align: center;
+    margin-top: 15px;
+    
 }
 .smart-saver-upper-container .blank{
     height: 120px;
@@ -31,6 +40,7 @@
     justify-content: space-around;
     flex-direction: row;
     /* align-items: center; */
+    margin-top: 15px;
 }
 .smart-saver-middle-container .middle-left{
     width: 40vw;
@@ -42,16 +52,30 @@
     height: 400px;
 }
 .smart-saver-middle-container .middle-right img{
-    width: 40vw;
-    height: 80%;
+    /* width: 40vw;
+    height: 80%; */
 }
 .smart-saver-middle-container h5{
     color: #1A527E;
+font-size: 24px;
+font-weight: 500;
+line-height: 22.08px;
+text-align: left;
+
+}
+.middle-left img{
+    width: 60px;
+    float: left; 
+    margin-right: 20px;
 }
 .smart-saver-middle-container p{
     color: #374957;
-    font-size: 12px;
+font-size: 18px;
+font-weight: 400;
+line-height: 16.56px;
+text-align: justified; 
 }
+
 @media (max-width:800px) {
 
     .smart-saver-middle-container .middle-left{
@@ -67,10 +91,10 @@
         flex-direction: column;
      }
      .smart-saver-middle-container .middle-left , .middle-left  {
-        width: 90vw;
+        width: 90vw !important;
      }
      .smart-saver-middle-container .middle-right img {
-        width: 50vw;
+        width: 90vw !important;
      }
 }
 
@@ -83,13 +107,28 @@
     padding: 20px 0px !important;
 }
 .smart-saver-lower-container img {
-    width: 50vw;
+    /* width: 50vw; */
     border-radius: 30px;
+    margin-top: 40px;
 }
 .smart-saver-bottom{
     text-align: center;
 }
 .smart-saver-bottom h4{
-     font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22.08px;
+    text-align: center;
+    
      color: #1A527E;
+}
+.smart-saver-bottom p{
+font-size: 18px;
+font-weight: 400;
+line-height: 16.56px;
+text-align: center;
+margin-top: 15px;
+}
+.middle-left .left-details{
+    display: flex;
 }

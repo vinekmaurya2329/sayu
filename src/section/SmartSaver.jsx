@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/SmartSaver.css'
+import { Image } from 'react-bootstrap'
 function SmartSaver() {
   return (
     <div className='smart-saver-container '>
@@ -12,19 +13,34 @@ function SmartSaver() {
    <p>Available on desktop, laptop, iOS, and Android. SAYV offers tailored money-saving and cost-of-living benefits across various daily life categories. It captures your personal info, assesses your financial and lifestyle position, and makes budget and lifestyle recommendations. Monitor and adjust your outcomes easily.</p>
         </div>
         <div className="smart-saver-middle-container">
+
             <div className="middle-left">
                 <div className='' style={{height:'80px'}}></div>
-  <h5>SAYV: Your Interactive Financial Companion</h5>
-  <p>Available on desktop, laptop, iOS, and Android. SAYV tailors money-saving tips, assesses your finances, and offers budget recommendations. Easily monitor and adjust your outcomes.</p>
-          <h5>Create Custom Dashboards and Reports</h5>
-          <p>Create personalised dashboards and reports to focus on the financial details that matter most to you.</p>
+
+               <div className='left-details'>
+               <div className=''><img src="../..//smart-saver-1.png" alt="lgo" /></div>
+  <div className=''><h5>SAYV: Your Interactive Financial Companion</h5>
+  <p>Available on desktop, laptop, iOS, and Android. SAYV tailors money-saving tips, assesses your finances, and offers budget recommendations. Easily monitor and adjust your outcomes.</p></div>
+               </div>
+   
+    <div className="left-details">
+    <div> <img src="../..//smart-saver-2.png" alt="lgo" /></div>
+         <div>
+         <h5>Create Custom Dashboards and Reports</h5>
+         <p>Create personalised dashboards and reports to focus on the financial details that matter most to you.</p>
+         </div>
+    </div>
+
             </div>
+
             <div className="middle-right">
-                  <img src="../..//smartSaver-left.png" alt="" />
+              <Image src='../..//smartSaver-left.png' width={496} height={430} fluid/>
+                  {/* <img src="../..//smartSaver-left.png" alt="" /> */}
             </div>
         </div>
         <div className="smart-saver-lower-container">
-                 <img src="../..//smartSaver-lower.png" alt="" />
+          <Image src='../..//smartSaver-lower.png' width={1009} height={460} fluid/>
+                 {/* <img src="../..//smartSaver-lower.png" alt="" /> */}
         </div>
        
   <div className="smart-saver-bottom">

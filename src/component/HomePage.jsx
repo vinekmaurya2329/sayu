@@ -37,13 +37,13 @@ function HomePage() {
           <div className="storeLink-container">
             <div className="play-store"> 
               <img
-                src="https://static.wixstatic.com/media/41d000_d91d87a5816435680a72bb329df2ddae.png/v1/fill/w_560,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/41d000_d91d87a5816435680a72bb329df2ddae.png"
+                src="../../Google-play.png"
                 alt="ply"
               />
             </div>
             <div className="app-store">
               <img
-                src="https://w7.pngwing.com/pngs/395/177/png-transparent-app-store-apple-apple-text-logo-mobile-app-development-thumbnail.png"
+                src="../../app-store.png"
                 alt=""
               />
             </div>

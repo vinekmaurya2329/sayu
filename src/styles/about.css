@@ -12,18 +12,23 @@
 .about-uper h3 {
     font-size: 2.6vw;
     color: #00275B;
-    text-align: justify;
-
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+  line-height: 40px;
 }
 .about-uper p{
     color: #374957 ;
     text-align: justify;
+    margin: 0 35px;
+    line-height: 16.56px;
 }
 .about-uper button {
      background-color: #FFFFFF;
      border: 1px solid #004AAD;
      border-radius: 20px;
      padding: 0 9px;
+     margin-bottom: 20px;
 }
 .blank{
     height: 120px;
@@ -33,6 +38,27 @@
     justify-content: center;
     flex-direction: row;
     column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.about-lower .cards-container{
+    /* background-color: red; */
+    width: 320px !important;
+    height: 350px;
+    margin-top: 40px;
+}
+.about-lower .cards-image{
+    /* background-color: red; */
+    height: 300px;
+}
+.about-lower .cards-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.about-lower .cards-description{
+   font-size: 18px;
+   font-weight: 400;
+   text-align: justify;
 }
 @media (max-width:800px) {
     .about-lower{

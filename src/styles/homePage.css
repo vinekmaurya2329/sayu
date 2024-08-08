@@ -19,12 +19,24 @@
 }
 .upper h3{
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 64px;
+    font-weight: 600;
+    /* line-height: 50px; */
+}
+.upper h3:nth-child(1){
+    /* background-color: red; */
+    margin-top: 20px;
+}
+.upper h3:nth-child(2){
+    /* background-color: red; */
+    margin-top: -20px;
 }
 .upper p{
     color: #FFFFFF;
-  line-height: 8px;
-  font-size: 12px;
+  line-height: 6.56px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 .home-container{
     /* background-color: #080808; */
@@ -41,26 +53,27 @@
  column-gap: 15px;
 }
 .play-store img{
-    width: 70px;
+    width: 150px;
     cursor: pointer;
     border-radius: 25px;
 
 }
 .app-store img {
-    width: 70px;
+    width: 150px;
     cursor: pointer;
 
     border-radius: 25px;
 }
 .storeLink-container div{
-    width: 110px;
+    /* width: 110px; */
+    margin-top: 25px;
     height: 75px;
     /* background-color: #00000040; */
 }
 .lower .laptop-img {
-    width: 750px;
+    width: 850px;
     height: 485px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
 }
 .lower .mobile-img{

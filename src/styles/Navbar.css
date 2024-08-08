@@ -16,3 +16,12 @@ Nav {
 #Sayv-logo{
     cursor: pointer;
 }
+#nav-links{
+    /* display: flex !important;
+    background-color: red;
+    justify-content: space-between !important;
+    flex-direction: row; */
+}
+.nav{
+    
+}
