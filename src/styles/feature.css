@@ -15,6 +15,16 @@
 }
 .feature-1-container .right-1{
     width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.right-1 .feature-details{
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .feature-1-container .right-1 button{
     border-radius: 20px;
@@ -35,7 +45,7 @@
     ;
 }
 .feature-1-container .right-1 .logo{
-    width: 40px;
+    width: 50px;
     float: left;
     padding-right: 10px;
 }

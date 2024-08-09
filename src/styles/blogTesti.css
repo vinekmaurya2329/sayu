@@ -4,6 +4,9 @@
     background-size: 100% 100%;
     background-repeat: no-repeat !important;
 }
+.blogTesti-upper{
+   
+}
 .blogTesti-container .blogTesti-upper{
     display: flex;
     justify-content: center;
@@ -13,10 +16,19 @@
 }
 .blogTesti-upper h4{
     color: #FFFFFF;
+font-size: 64px;
+font-weight: 600;
+line-height: 58.88px;
+text-align: center;
+
 }
 .blogTesti-upper p{
     color: #FFFFFF;
-    text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 16.56px;
+text-align: center;
+
 }
 .blogTesti-upper button{
     border-radius: 20px;
@@ -36,9 +48,20 @@
     flex-direction: column;
     row-gap: 20px;
 }
+.blogs-middle h5{
+font-size: 28px;
+font-weight: 600;
+line-height: 25.76px;
+text-align: center;
+color: #1A527E;
+}
 .blogs-upper h4{
-    color: #080808;
+    color: #00275B;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 40.48px;
     text-align: center;
+    
 }
 .blogs-upper button{
     border-radius: 20px;
@@ -47,10 +70,35 @@
     border: 1px solid #004AAD;
 
 }
+.blogs-lower h4{
+    font-size: 28px;
+font-weight: 600;
+line-height: 25.76px;
+text-align: center;
+color: #1A527E;
+}
 .blogs-lower .big-card .blogCard-container{
-    width: 85vw ;
-    /* background-color: red !important; */
- /* height: 80vh; */
+    width: 87vw ;
+
+}
+.blogs-lower .big-card .blog-cards-lower{
+    width: 87vw;
+}
+
+ .blogCard-container .blog-cards-lower h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #00275B;
+   
+    
+}
+.blogCard-container .blog-cards-lower p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
 }
 @media (max-width:530px) {
      .blogs-lower .blogCard-container{

@@ -13,7 +13,9 @@ function BlogDetails() {
      <button>Blog •  Details page</button>
      <h4>UX review presentations</h4>
      <p>Olivia Rhye • 1 Jan 2023</p>
+     <div style={{height:'140px'}}></div>
    </div>
+   
     </div>
    <div className='bg-white'>
    <div className="big-feature container ">
@@ -24,6 +26,7 @@ function BlogDetails() {
       <p>Lorem volutpat elit morbi molestie. Iaculis vestibulum sit viverra sed fermentum iaculis elit. Laoreet habitant duis sit bibendum eu aliquet vitae vestibulum non. Consequat fringilla blandit fames potenti massa in molestie senectus egestas. Mattis nibh id semper sapien dignissim sed in. In viverra aliquam id neque facilisis laoreet enim at ultricies. Molestie justo sit convallis rhoncus bibendum. Dignissim commodo lorem aenean risus quis at amet. Placerat ut consectetur porttitor nibh amet. Faucibus accumsan enim euismod aliquam. Nibh leo arcu sit pellentesque proin dolor.</p>
       <p>Aliquet id a adipiscing volutpat pretium. Eu duis cras interdum integer ac facilisis.</p>
     </div>
+    
     </div>
     <div className="more-blogs container">
       <div style={{height:'70px'}}></div>

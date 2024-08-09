@@ -30,12 +30,12 @@ function ContactUs() {
     <img src="../..//contact-logo.png" alt="lgo" />
     <h5>Still have a Question? </h5>
     <p className='container'>Need help or have questions about SAYV? Use our chat feature for real-time assistance. Our support team is ready to provide you with quick and helpful answers to ensure a seamless experience.</p>
-    <button>Chat with us</button>
+    <button id='chat'>Chat with us</button>
         </div>
         <div className="contactUs-right px-3 py-3">
 
         <Form className=''>
-            <Row g-1 >
+            <Row g-1 className='my-2'>
 
                 <Col md>
                 <Form.Group className="mb-3 md-3" controlId="formBasicEmail">
@@ -56,7 +56,7 @@ function ContactUs() {
                 
                 </Col>
             </Row>
-            <Row g-1 >
+            <Row g-1 className='my-2' >
 
 <Col md>
 <Form.Group className="mb-3 md-3" controlId="formBasicEmail">
@@ -83,7 +83,7 @@ function ContactUs() {
 <Form.Label><strong>Message</strong></Form.Label>
 <InputGroup>
        
-<Form.Control as="textarea" rows={3} className='' style={{borderRadius:'20px'}} placeholder='Briefly tell us about your project and your current goals. How can we help you?' />
+<Form.Control as="textarea" rows={4} className='' style={{borderRadius:'20px'}} placeholder='Briefly tell us about your project and your current goals. How can we help you?' />
       </InputGroup>
 
 

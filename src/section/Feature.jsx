@@ -13,9 +13,12 @@ function Feature({logo,title,description,heading,buttonTxt,image,L_order,R_order
         <div className="right-1" style={{order:R_order}}>
      <button>{buttonTxt}</button>
      <h4>{title}</h4>
-     <h6>{heading}</h6>
+     
+      <div className='feature-details'>
       <img src={logo} alt="lgo" className='logo' />
-     <p>{description}</p>
+      <div><h6>{heading}</h6>
+      <p>{description}</p></div>
+      </div>
         </div>
         </div>
         <div style={{height:'100px'}}></div>

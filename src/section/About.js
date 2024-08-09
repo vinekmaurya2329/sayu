@@ -10,7 +10,7 @@ function About() {
         {
             title:'Insurance Factors',
             description:'5 Factors that may affect your car insurance premium',
-            img:'../..//about-card.png'
+            img:'../..//smart-saver-card-1.png'
         },
         {
             title:'70 Cost-Saving Tips',
@@ -20,7 +20,7 @@ function About() {
         {
             title:'Thrifty Healthy Meals',
             description:'Healthy menu plans that save $’000’s at the super market each year',
-            img:'../..//about-card.png' 
+            img:'../..//smart-saver-card-3.png' 
         }
     ]
   return (

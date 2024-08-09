@@ -8,7 +8,7 @@
 .blogDetail-container{
     background-image: url('../../public/Background.png');
     background-size: 100% 100%;
-    height: 55vh;
+    /* height: 55vh; */
 }
 @media (max-width:500px) {
     .blogDetail-container{
@@ -29,9 +29,19 @@
 }
 .blogDetail-container .container h4{
     color: #FFFFFF;
+font-size: 64px;
+font-weight: 600;
+line-height: 58.88px;
+text-align: center;
+
 }
 .blogDetail-container .container p{
     color: #FFFFFF;
+font-size: 28px;
+font-weight: 400;
+line-height: 25.76px;
+text-align: center;
+
 }
 .blogDetail-container .container button{
     border-radius: 20px;
@@ -44,7 +54,7 @@
     border-radius: 10px ;
     /* background-color: red; */
     position: relative;
-    top: -100px ;
+    top: -90px ;
 }
 .big-feature p{
     color: #374957 ;
@@ -67,4 +77,25 @@
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 20px;
+}
+.more-blogs .more-blog-div h4{
+font-size: 24px ;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+ color: #00275B;
+}
+.more-blogs .more-blog-div p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.more-blogs h4{
+font-size: 28px;
+font-weight: 600;
+line-height: 25.76px;
+text-align: center;
+padding-bottom: 20px;
 }

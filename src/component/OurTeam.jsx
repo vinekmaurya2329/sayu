@@ -45,7 +45,7 @@ function OurTeam() {
       // centerMode:true,
       slidesToShow: 4,
       slidesToScroll: 1,
-      focusOnSelect: true,
+      // focusOnSelect: true,
       swipeToSlide: true,
       arrows:false,
       responsive: [

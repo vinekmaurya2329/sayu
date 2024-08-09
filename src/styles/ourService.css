@@ -8,8 +8,8 @@
 .ourService-container{
     /* background-color: #080808; */
     background-image: url('../../public/Background.png') ;
-    background-size: cover;
-    background-position:center;
+    background-size: 100% 100%;
+    /* background-position:center; */
     background-repeat: no-repeat;
 }
 .ourService-container .ourService-upper{
@@ -20,12 +20,19 @@
 }
 .ourService-container .ourService-upper h4{
     color: #FFFFFF;
-    text-align: center;
-    font-size: 32px;
+font-size: 64px;
+font-weight: 600;
+line-height: 58.88px;
+text-align: center;
+
 }
 .ourService-container .ourService-upper p{
     color: #FFFFFF;
-    text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 16.56px;
+text-align: center;
+
 }
 .ourService-container button{
     background-color: #080808;
@@ -44,18 +51,43 @@
     column-gap: 30px;
     row-gap: 20px;
 }
-.our-service-card .card2-container{
-    width: 30vw;
+.features h4{
+font-size: 44px;
+font-weight: 600;
+line-height: 40.48px;
+text-align: left;
+
 }
-.our-service-card .card2-descripton{
+.features h6{
+font-size: 24px;
+font-weight: 500;
+line-height: 22.08px;
+text-align: left;
+
+}
+.our-service-card .card2-container{
+    width: 33vw;
+    height: 50vh !important;
+}
+.our-service-card .card2-description{
     color:'#FFFFFF';
-    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.56px;
+    text-align: left;
+    
+    
 }
 .our-service-card .card2-logo{
     width: 40px;
 }
 .our-service-card .card2-title{
     color: #FFFFFF;
+font-size: 24px;
+font-weight: 600;
+line-height: 22.08px;
+text-align: left;
+
 }
 @media (max-width:770px) {
      .features .container{
@@ -100,7 +132,7 @@
         width: 100%;
      }
      .feature-footer .card2-container{
-        background-color: red !important;
+      
         min-width: 60vw;
        max-width: 90vw;
        height: 22vh !important;

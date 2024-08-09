@@ -16,10 +16,19 @@
  color: #ffffff;
 }
 .aboutUs-container h4{
-    font-size: 35px;
+font-size: 64px;
+font-weight: 600;
+line-height: 58.88px;
+text-align: center;
+
 }
 .aboutUs-container p {
-    text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 16.56px;
+text-align: center;
+ color: #FFFFFF
+ ;
 }
 .aboutUs-container button {
     border-radius: 30px;

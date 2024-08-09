@@ -32,11 +32,11 @@ function Blogs() {
        
      </div>
      <div className="blogs-middle">
-     <h5 style={{textAlign:'center'}}>Recent blogs</h5>
-    <Row md={1} xl={2} xs={1} sm={1}>
+     <h5 style={{textAlign:'center',marginTop:'10px'}}>Recent blogs</h5>
+    <Row md={1} xl={2} xs={1} sm={1} className='my-4 col-12'>
     {
         data.map(({title,image,description})=>(
-  <Col>
+  <Col className='col-6'>
   <BlogCard  title={title} description={description} image={image}/>
   </Col>
         ) )

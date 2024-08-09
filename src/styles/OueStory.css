@@ -3,6 +3,12 @@
 }
 .ourStory-container h4{ 
     color: #00275B;
+    font-family: League Spartan;
+font-size: 44px;
+font-weight: 600;
+line-height: 40.48px;
+text-align: left;
+
 }
 
 .ourStory-container .container{
@@ -10,20 +16,43 @@
     justify-content: space-between;
     flex-direction: row;
     column-gap: 20px;
+    align-items: center;
     /* align-items: center; */
 }
 .ourStory-container p{
     color: #374957;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.56px;
     text-align: justify;
+    
 }
-.ourStory-left .ourStory-right {
-    width: 45vw ;
+.ourStory-left{
+    width: 40vw;
+}
+ .ourStory-right {
+    width: 40vw ;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: start;
+    flex-direction: column;
+    row-gap: 20px;
 }
 @media (max-width:600px) {
     .ourStory-container .container{
         flex-direction: column;
+        row-gap: 20px;
+    }
+    .ourStory-right{
+        width: 85vw;
+        
+    }
+    .ourStory-left{
+        width: 85vw;
     }
 }
+
 .ourStory-right button{
      background-color: #FFFFFF;
      border-radius: 30px ;

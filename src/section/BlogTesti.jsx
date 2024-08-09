@@ -10,8 +10,8 @@ function BlogTesti() {
         <div className="container">
             <div className="blogTesti-upper">
                 <button>About us</button>
-                <h4>Blog & Testimonial</h4>
-                <p>Explore expert blogs for financial tips and strategies, and read testimonials from SAYV users who have transformed their financial lives.</p>
+                <h4>Blog & Testimonials</h4>
+                <p>Explore expert blogs for financial tips and strategies, and read testimonials from SAYV users who <br /> have transformed their financial lives.</p>
             </div>
         <div style={{height:'100px'}}></div>
             

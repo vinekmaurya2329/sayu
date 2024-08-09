@@ -92,6 +92,7 @@ function OurServices() {
     </div>
     
   </div>
+  <div style={{height:'90px'}}></div>
     </div>
   <div className="features">
 
@@ -103,7 +104,7 @@ function OurServices() {
 }    
   </div>
  <div className='bg-white  feature-footer'>
- <div className='our-service-card container' style={{width:'',display:'flex', justifyContent:'center',alignItems:'center'}}>
+ <div className='our-service-card container' >
    
 
 

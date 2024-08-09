@@ -3,6 +3,11 @@
 }
 .ourClient-container h4{
     color: #00275B;
+font-size: 44px;
+font-weight: 600;
+line-height: 40.48px;
+text-align: center;
+
 }
 .ourClient-container .container {
     display:flex;
@@ -19,7 +24,14 @@
 } 
 .ourClient-container p{
     color: #374957;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.56px;
     text-align: center;
+    
+}
+.ourClient-lower {
+    margin-left: 20px;
 }
 .ourClient-container button{
     background-color: #F3F6FA;

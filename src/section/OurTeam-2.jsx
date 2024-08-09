@@ -8,36 +8,36 @@ function OurTeam_2() {
          title:'some title',
          description:'We take pride in delivering our best products to our clients. ',
 
-         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+         image:'../..//value-1.png'
         },
         {
             title:'some title',
             description:'We take pride in delivering our best products to our clients. ',
-            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+             image:'../..//value-2.png'
            },
            {
             title:'some title',
             description:'We take pride in delivering our best products to our clients. ',
 
-            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+            image:'../..//value-3.png'
            },
            {
             title:'some title',
             description:'We take pride in delivering our best products to our clients. ',
 
-            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+             image:'../..//value-4.png'
            },
            {
             title:'some title',
             description:'We take pride in delivering our best products to our clients. ',
 
-            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+             image:'../..//value-5.png'
            },
            {
             title:'some title',
             description:'We take pride in delivering our best products to our clients. ',
 
-            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yuPhR9HfOwQVGe1ofIk93SLWWDT-wdJZEVdBCGkN7Joa9xbZ2CIAG3me2gKnA2D0l04&usqp=CAU'
+             image:'../..//value-6.png'
            },
     ]
   return (

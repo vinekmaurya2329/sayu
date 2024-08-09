@@ -2,11 +2,18 @@
 
 body {
     font-family: "League Spartan", sans-serif !important;
-    overflow-x: hidden;
-   
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
   }
   *::selection{
     background-color: #1A527E;
     color:#ffffff;
    
   }
+  @media (max-width:900px) {
+     h3{
+      font-size: 6vw !important;
+     }
+  }
+  
